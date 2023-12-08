@@ -7,15 +7,15 @@ const Logo = () => {
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
   const timer = setTimeout(() => 
-    useEffect(() => {
-      const timer = setTimeout(() => {
-        setShowLogo(true);
-      }, 3000); 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLogo(true);
+    }, 3000); 
   
-      return () => {
-        clearTimeout(timer);
-      };
-    }, [])); 
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [])); 
    return (
     <div className="logo-container" ref={bgRef}>
       <img
