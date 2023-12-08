@@ -17,11 +17,12 @@ const Logo = () => {
   }, []); 
 
   return (
-    <div className="logo-container" ref={bgRef}>
+    <div className={`logo-container ${showLogo ? 'fade-in' : ''}`}>
       <img
-        className="solid-logo"
+        className={`solid-logo ${showLogo ? 'visible' : ''}`}
         ref={solidLogoRef}
         src={LogoS}
+        alt="JavaScript, Developer"
       />
     </div>
   );
