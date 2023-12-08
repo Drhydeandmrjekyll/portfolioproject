@@ -3,8 +3,6 @@ import LogoS from '../../../assets/images/logo-s.png';
 import './index.scss';
 
 const Logo = () => {
-  const bgRef = useRef();
-  const outlineLogoRef = useRef();
   const solidLogoRef = useRef();
   const [showLogo, setShowLogo] = useState(false);
 
@@ -24,7 +22,6 @@ const Logo = () => {
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoS}
-        alt="JavaScript, Developer"
       />
     </div>
   );
