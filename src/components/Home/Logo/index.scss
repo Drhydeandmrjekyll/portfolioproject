@@ -10,12 +10,6 @@
   left: auto;
   margin: auto;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
-  }
 
   .solid-logo {
     position: absolute;
@@ -29,11 +23,15 @@
     animation: rotateAnimation 12s linear infinite; 
     z-index: 1;
   }
+
+}
+&.fade-in {
+  opacity: 1;
 }
 
-.svg-container {
-  stroke: #33363D;
-  stroke-width: 10;
+&.visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 @keyframes rotateAnimation {
