@@ -23,15 +23,15 @@
     animation: rotateAnimation 12s linear infinite; 
     z-index: 1;
   }
+  &.fade-in {
+    opacity: 1;
+  }
+  
+  &.visible {
+    visibility: visible;
+    opacity: 1;
+  }
 
-}
-&.fade-in {
-  opacity: 1;
-}
-
-&.visible {
-  visibility: visible;
-  opacity: 1;
 }
 
 @keyframes rotateAnimation {
