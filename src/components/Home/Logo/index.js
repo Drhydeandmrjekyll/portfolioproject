@@ -1,30 +1,33 @@
-import { useEffect, useRef } from 'react'
-import LogoS from '../../../assets/images/logo-s.png'
-import './index.scss'
+import React, { useEffect, useRef, useState } from 'react';
+import LogoS from '../../../assets/images/logo-s.png';
+import './index.scss';
 
 const Logo = () => {
-  const bgRef = useRef()
-  const outlineLogoRef = useRef()
-  const solidLogoRef = useRef()
-  const timer = setTimeout(() => 
+  const bgRef = useRef();
+  const outlineLogoRef = useRef();
+  const solidLogoRef = useRef();
+  const [showLogo, setShowLogo] = useState(false);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowLogo(true);
-    }, 3000); 
-  
+    }, 3000);
+
     return () => {
       clearTimeout(timer);
     };
-  }, [])); 
-   return (
+  }, []); 
+
+  return (
     <div className="logo-container" ref={bgRef}>
       <img
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoS}
-        alt="JavaScript,  Developer"
+        alt="JavaScript, Developer"
       />
     </div>
-  )
-}
-export default Logo
+  );
+};
+
+export default Logo;
