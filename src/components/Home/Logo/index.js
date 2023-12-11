@@ -5,7 +5,6 @@ import './index.scss'
 
 const Logo = () => {
   const bgRef = useRef()
-  /*const outlineLogoRef = useRef()*/
   const solidLogoRef = useRef()
 
   useEffect(() => {
@@ -17,9 +16,6 @@ const Logo = () => {
         duration: 1,
         opacity: 1,
       })
-      /*.from(outlineLogoRef.current, {
-        duration: 20,
-      })*/
 
     gsap.fromTo(
       solidLogoRef.current,
