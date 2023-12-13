@@ -1,3 +1,42 @@
+### React Portfolio App (Itzenca)
+
+Overview
+This is a personal portfolio website built using React, showcasing my skills, projects, and information about me. The goal was to create an interactive and visually appealing platform that highlights my main portfolio project and provides a comprehensive overview of my abilities.
+
+### Features
+### Home Page:
+
+Welcome section with a brief introduction of my profession and skill acquired so far while enrolled at ALX.
+Navigation links to different sections of the portfolio (i.e contant,about, and portfolio section).
+About Me:
+
+Detailed information about your background, skills, and interests.
+And gives a brief history of the inspiration behind this project.
+Projects:
+
+Directs one to the main project (Itzenca whois domain search). The project was build using flask, python HTML and CSS.
+
+### Contact:
+
+It has a Contact form and information for potential employers or collaborators.
+
+### Sidebar:
+
+Links to my social acounts (i.e LinkedIn, GitHub etc)
+
+### Technologies Used
+*React
+*JavaScript
+*HTML5
+*CSS3
+*Packages used: [animate.css, gsap, loaders.css,leaflet,react.loaders,react-router-dom,sass]
+### Getting Started
+Create react app : npx create-react-app name-of-project
+Navigate to the project directory: cd your-react-portfolio
+Install dependencies: npm install
+Start the development server: npm start
+Open your browser and visit http://localhost:3000 to view your portfolio.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -9,7 +48,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -68,3 +107,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Acknowledgment:
+
+Many thanks to my family, my project partner since day one and to ALX for the materials provided throughout the foundation course and also to Youtube for the unlimited specifically freecodecamp.org . But all thanks to God for all and I attribute all to Him.
+
+
+
+### Author
+Name: Ronald Nene
+
+Email: ronaldkevinnene@gmail.com .
+
+Portfolio URL: https://itzenca-project-portfolio.onrender.com  .
+
+LinkedIn Profile URL: https://www.linkedin.com/in/ronald-w-89450a212?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BwISWFl6%2FR8WRC%2FDncrSeZA%3D%3D
+
+GitHub Profile URL: https://github.com/Drhydeandmrjekyll
+
+

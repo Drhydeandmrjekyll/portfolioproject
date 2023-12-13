@@ -25,15 +25,10 @@
     left: 0;
     margin: auto;
     width: 100%;
-    /*opacity: 0;*/
+    opacity: 0;
     animation: rotateAnimation 12s linear infinite;
     z-index: 1;
   }
-}
-
-.svg-container {
-  stroke: #33363D;
-  stroke-width: 10;
 }
 
 @keyframes rotateAnimation {
